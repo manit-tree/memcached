@@ -1,0 +1,11 @@
+version: "3.1"
+
+services:
+  mysql:
+    image: memcached:1.6.7-alpine
+    container_name: memcached-service
+    command: 
+      - '-m 64'
+    restart: always
+    ports:
+      - "11211:11211"
