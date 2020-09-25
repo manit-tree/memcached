@@ -1,6 +1,6 @@
 # Memcached
 
-run Memcached container on your development machine
+setup Memcached (as a container) on your development machine
 
 ### instruction
 
